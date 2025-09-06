@@ -51,7 +51,7 @@ export default function Content() {
         <motion.div
           initial={{ y: 0 }}
           whileTap={{
-            y: 50, // move up
+            y: -50, // move up
             transition: {
               type: "spring",
               stiffness: 500,
